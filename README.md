@@ -14,7 +14,7 @@
 
 - Record List: You can select Record List to view all records stored in the records.json file. For now, this will appear on the console.
 
-- View Records: The console will query what record you are trying to view. The input is case sensitive currently. If you do not know what the records name is, try the "Record List" button. You will only be able to access records that you are authorized to see. Each account has a clearance level associated with it.
+- View Records: The console will query what record you are trying to view. If you do not know what the records name is, try the "Record List" button. You will only be able to access records that you are authorized to see. Each account has a clearance level associated with it.
 
 - Create Record: This allows you to create a new record to be saved on the records.json file. Note that your record can only be as secret as the clearance level that you currently have. If you were not allowed to view forbidden documents but were attempting to write them, that may draw unwanted attention.
 
