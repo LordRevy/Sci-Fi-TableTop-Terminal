@@ -1,0 +1,44 @@
+{
+    "Admin": {
+        "Title": null,
+        "ID Number": "1234",
+        "Clearance Level": 10,
+        "Is Admin": true
+    },
+    "Andros": {
+        "Title": "Brother",
+        "ID Number": "1123",
+        "Clearance Level": 2,
+        "Is Admin": false
+    },
+    "Zetheus": {
+        "Title": "Bishop",
+        "ID Number": "1233",
+        "Clearance Level": 0,
+        "Is Admin": false
+    },
+    "bboiist": {
+        "Title": "Bobby Boi",
+        "ID Number": "1234",
+        "Clearance Level": 0,
+        "Is Admin": false
+    },
+    "": {
+        "Title": null,
+        "ID Number": "",
+        "Clearance Level": 0,
+        "Is Admin": false
+    },
+    "OFFICIAL": {
+        "Title": "PDF",
+        "ID Number": "1474",
+        "Clearance Level": 3,
+        "Is Admin": false
+    },
+    "poopman": {
+        "Title": "Mr.",
+        "ID Number": "49822",
+        "Clearance Level": 0,
+        "Is Admin": false
+    }
+}
