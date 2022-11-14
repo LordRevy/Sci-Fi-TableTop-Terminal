@@ -19,5 +19,5 @@ def run_program():
     Main(user, RESTRICTIONS, COLOR_THEME)
 
 
-while True:
+while True: #--------TO BE REPLACED WITH A QUIT BUTTON EVENTUALLY
     run_program()
