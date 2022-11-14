@@ -4,9 +4,9 @@ import messages
 
 class Record_Manager:
 
-    def __init__(self, user, restrictions):
+    def __init__(self, user, RESTRICTIONS):
         self.user = user
-        self.restrictions = restrictions
+        self.restrictions = RESTRICTIONS
 
 #-----------------------------------------------------RECORD VIEWER
 
