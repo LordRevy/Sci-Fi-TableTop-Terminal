@@ -8,7 +8,9 @@
 
 - If you opt for a fresh start, the first account created must be the "Administratus" (Game Master). This account will be given full access to all content.
 
-- When trying to log in, the program will take your input and attempt to find a match in the users.json file. (If the file itself does not exist, it will create one). If a match is found, it will give you access to the terminal with the clearance level associated with the account. The clearance level determines what you are authorized to see and what is forbidden.
+- When trying to log in, the program will take your input and attempt to find a match in the users.json file. (If the file itself does not exist, it will create one). If a match is found, it will give you access to the terminal with the clearance level associated with the account.
+
+- You will be able view the Title of all records stored on the system but if your clearance level is below the clearance of the document, you will not be able to read the body of it or see who wrote it.
 
 #----MAIN SCREEN BUTTONS
 
@@ -22,6 +24,18 @@
 
 - Administratus: This tab opens a new screen for the Game Master only. This allows the Game Master to 1. View all Users that currently exist on the terminal. and 2. Raise or lower users clearance levels.
 
-#----FINAL NOTE
+#----KEEP IN MIND
 
 - The Administratus role is generally reserved for the Game Master, but it could make perfect sense for the players to be the Aministrator for a network of Terminals. This could provide fun role play aspects like searching for names in a terminal to find who has used it. But be careful as the players will be able to view any record stored within the terminal, regardless if its classification.
+
+#----FUTURE PLANS
+
+1. The major improvement I would like to implement in the near future is converting all interaction from the console over to the GUI itself. This will make it much simpler to only have one screen to worry about. This would also make the UI cleaner and more immersive. This will be done by:
+  - Shifting the main screen buttons to the side or bottom to make more room.
+  - Using the "Example Text" space to display the console communications.
+  - Adding an entry on the main screen to replace having to use console inputs.
+
+2. Currently the records display on a simple tkinter info messagebox. I would like to change this to actually displaying a window with artwork of a 40k-esk document that populates the information on it. Another cool feature would be to have a different documents depending on the classification. (so classified documents might have "CLASSIFIED" scrawled across the top, forbidden documents may have purity seals, etc.)
+
+3. Once I get these goals done, I would like to comb through the code and attempt to simplify what I can and make it more readable.
+
