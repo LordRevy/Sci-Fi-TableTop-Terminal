@@ -28,14 +28,7 @@
 
 - The Administratus role is generally reserved for the Game Master, but it could make perfect sense for the players to be the Aministrator for a network of Terminals. This could provide fun role play aspects like searching for names in a terminal to find who has used it. But be careful as the players will be able to view any record stored within the terminal, regardless if its classification.
 
-#----FUTURE PLANS
+#----JUST FOR FUN
 
-1. The major improvement I would like to implement in the near future is converting all interaction from the console over to the GUI itself. This will make it much simpler to only have one screen to worry about. This would also make the UI cleaner and more immersive. This will be done by:
-  - Shifting the main screen buttons to the side or bottom to make more room.
-  - Using the "Example Text" space to display the console communications.
-  - Adding an entry on the main screen to replace having to use console inputs.
-
-2. Currently the records display on a simple tkinter info messagebox. I would like to change this to actually displaying a window with artwork of a 40k-esk document that populates the information on it. Another cool feature would be to have a different documents depending on the classification. (so classified documents might have "CLASSIFIED" scrawled across the top, forbidden documents may have purity seals, etc.)
-
-3. Once I get these goals done, I would like to comb through the code and attempt to simplify what I can and make it more readable.
+- This was just meant to see what I could do by soley using python. Were I to turn this into a usable app, I would start from scratch and incorperate HTML and CSS to make it much cleaner and user friendly.
 
